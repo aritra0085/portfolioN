@@ -20,10 +20,19 @@ import {
   skills,
   certificates,
   animatedBlobs,
-} from "./constants/data.jsx"
-
-
+} from "./constants/data.jsx";
+import pp from "/pp.jpg"
 function App() {
+
+  const [time, setTime] = useState("")
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    setTime(new Date().toLocaleDateString());
+    const timer = setInterval(() => setTime(new Date().toLocaleDateString()), 1000);
+    return () => clearInterval(timer); 
+  }, []);
   return (
     <>
       <div className="relative min-h-screen flex justify-center items-center bg-[#0a0a0a] text-white p-4 md:py-14 font-mono overflow-hidden">
