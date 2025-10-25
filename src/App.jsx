@@ -22,6 +22,7 @@ import {
   animatedBlobs,
 } from "./constants/data.jsx"
 
+
 function App() {
   return (
     <>
