@@ -47,11 +47,28 @@ function App() {
     },
   };
 
+  const itemVariants = {
+    hidden: {opacity: 0, y: 40},
+    show:{
+      opacity:1,
+      y:0,
+      transition:{
+        duration: 0.6,
+        ease: [0.22, 1, 0.36, 1],
+      }
+    }
+  };
+
 
   return (
     <>
       <div className="relative min-h-screen flex justify-center items-center bg-[#0a0a0a] text-white p-4 md:py-14 font-mono overflow-hidden">
-        <h1 className="text-white text-8xl font-bold">STARTER CODE</h1>
+        {animatedBlobs.map((blob, i) => (
+          <motion.div key={i}
+          className={`absolute rounded-full ${blob.className}`}>
+
+          </motion.div>
+        ))}
       </div>
     </>
   );
