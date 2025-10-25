@@ -33,6 +33,21 @@ function App() {
     const timer = setInterval(() => setTime(new Date().toLocaleDateString()), 1000);
     return () => clearInterval(timer); 
   }, []);
+
+
+  const containerVarients = {
+    hidden: {opacity: 0},
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.25,
+        ease: "easeOut",
+        duration: 0.7,
+      },
+    },
+  };
+
+
   return (
     <>
       <div className="relative min-h-screen flex justify-center items-center bg-[#0a0a0a] text-white p-4 md:py-14 font-mono overflow-hidden">
