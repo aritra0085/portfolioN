@@ -103,24 +103,32 @@ function App() {
           </motion.div>
 
 
-          <motion.div variants={itemVariants}
-          className="card card-violet md:col-span-1 row-span-4 flex flex-col gap-4">
-            <h2
-            className="section-title">
-              <Trophy size={20}
-              className="text-violet-400"/>
+          <motion.div
+            variants={itemVariants}
+            className="card card-violet md:col-span-1 row-span-4 flex flex-col gap-4"
+          >
+            <h2 className="section-title flex items-center gap-2">
+              <Trophy size={20} className="text-violet-400" />
               <span>Projects</span>
-
-              <div className="grid grid-cols-1
-              md:grid-cols-2 gap-3 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
-                {projects.map((i) => (
-                  <motion.div key={i}
-                  className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer">
-                    
-                  </motion.div>
-                ))}
-              </div>
             </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
+              {projects.map((i) => (
+                <motion.div
+                  key={i}
+                  className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer"
+                >
+                  <video
+                    src={`projectvid${i}.mp4`}
+                    muted
+                    loop
+                    autoPlay
+                    playsInline
+                    className="w-full h-full object-cover"
+                  />
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </motion.main>
       </div>
