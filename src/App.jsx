@@ -75,6 +75,16 @@ function App() {
           }}>
           </motion.div>
         ))}
+
+
+        <motion.main variants={containerVarients}
+        initial="hidden"
+        animate={mounted ? "show": "hidden"}
+        className="main-grid"
+        >
+
+          
+        </motion.main>
       </div>
     </>
   );
