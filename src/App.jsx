@@ -29,8 +29,8 @@ function App() {
 
   useEffect(() => {
     setMounted(true);
-    setTime(new Date().toLocaleDateString());
-    const timer = setInterval(() => setTime(new Date().toLocaleDateString()), 1000);
+    setTime(new Date().toLocaleTimeString());
+    const timer = setInterval(() => setTime(new Date().toLocaleTimeString()), 1000);
     return () => clearInterval(timer); 
   }, []);
 
@@ -139,7 +139,34 @@ function App() {
               className="text-cyan-400"/>
               <span>My Local Time [{personalInfo.location}]</span>
             </h2>
-            <p></p>
+            <p className="text-6xl font-bold tracking-tight bg-linear-to-r from-white via-violet-200 to-cyan-200 bg-clip-text text-transparent relative">
+              {time}
+            </p>
+          </motion.div>
+
+          <motion.div variants={itemVariants}
+          className="card card-green row-span-2 flex flex-col justify-center overflow-hidden">
+            <h2 className="text">
+              <Mail size={20} className="text-green-400"/>
+              <span>Contact</span>
+            </h2>
+
+            <div className="text-slate-300 flex flex-col gap-4">
+              <p className="text-sm text-slate-400 leading-relaxed">
+                Have a project , collaboration, or just want to say hi? Drop me a message anytime. 
+              </p>
+
+              <a href={`mailto:${personalInfo.email}`} className="w-full bg-green-500/10 border border-green-500/20 hover:border-green-500/50 text-green-400 hover:text-white font-medium py-2 rounded-lg text-center transition-all duration-300">Send Mail</a>
+            </div>
+          </motion.div>
+
+          <motion.div variants={itemVariants}
+          className="card card-violet md:col-span-1 row-span-3 flex flex-col justify-center gap-4">
+            <h2 className="section-title">
+              <User size={20}
+              className="text-violet-400"/>
+              <span>Social Links</span>
+            </h2>
           </motion.div>
         </motion.main>
       </div>
