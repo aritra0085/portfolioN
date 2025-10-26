@@ -217,6 +217,13 @@ function App() {
             </ul>
 
           </motion.div>
+
+          <motion.div variants={itemVariants} className="card card-green row-span-3 flex flex-col justify-center gap-3 group">
+              <h2 className="section-title">
+                <BriefcaseBusiness size={20} className="text-green-400"/>
+                <span>Favorite Tools</span>
+              </h2>
+          </motion.div>
         </motion.main>
       </div>
     </>
