@@ -235,6 +235,16 @@ function App() {
                 ))}
               </ul>
           </motion.div>
+
+          <motion.div variants={itemVariants}
+          className="card card-green row-span-2 flex flex-col justify-center group ">
+              <h2 className="section-title">
+                <Trophy size={20}
+                className="text-green-400"/>
+                <span>Goals</span>
+              </h2>
+              <ul></ul>
+          </motion.div>
         </motion.main>
       </div>
     </>
