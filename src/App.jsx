@@ -118,17 +118,28 @@ function App() {
                   key={i}
                   className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer"
                 >
-                  <video
-                    src={`projectvid${i}.mp4`}
-                    muted
-                    loop
-                    autoPlay
-                    playsInline
-                    className="w-full h-full object-cover"
-                  />
+                  {/*  */}
+
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <buttton
+                   className="gradient-btn">
+                    Open Project
+                    <ExternalLink size={14}/>
+                  </buttton>
+                  </div>
                 </motion.div>
               ))}
             </div>
+          </motion.div>
+
+          <motion.div variants={itemVariants}
+          className="card card-blue row-span-2 flex flex-col justify-center items-start gap-3 overflow-hidden">
+            <h2 className="section-title">
+              <Clock size={20}
+              className="text-cyan-400"/>
+              <span>My Local Time [{personalInfo.location}]</span>
+            </h2>
+            <p></p>
           </motion.div>
         </motion.main>
       </div>
