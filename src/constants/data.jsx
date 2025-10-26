@@ -1,11 +1,11 @@
 import { Github, Linkedin, Twitter, Youtube } from "lucide-react";
 
 export const personalInfo = {
-  name: "James Wells",
+  name: "Aritra Biswas",
   role: "Web Developer",
-  bio: "Hi, I’m James. I'm a Web Developer focused on building fast, elegant, and thoughtful digital experiences. My work blends technical precision with a design-driven mindset to create websites that not only work well but feel great.",
-  email: "jameswells@example.com",
-  location: "USA",
+  bio: "Hi, I’m Aritra Biswas. I’m a Web Developer focused on creating fast, intuitive, and impactful digital experiences. My work blends technical precision with a design-driven mindset to build websites that not only perform flawlessly but feel exceptional to use.",
+  email: "aritrabiswas218@gmail.com",
+  location: "India",
 };
 
 export const projects = [1, 2, 3, 4, 5, 6];

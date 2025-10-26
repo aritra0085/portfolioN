@@ -86,6 +86,41 @@ function App() {
           <motion.div variants={itemVariants}
           className="card card-cyan md:col-span-1
           row-span-3 flex flex-col justify-center gap-3">
+            <img
+               src={pp}
+               className="w-[70px] h-[70px]
+               rounded-full object-cover"
+               alt=""/>
+               <h2 className="section-title">
+                <User size={22}
+                className="text-violet-400"/>
+                <p>{personalInfo.name}</p>
+               </h2>
+
+               <p className="text-slate-300 text-sm leading-relaxed">
+                {personalInfo.bio}
+               </p>
+          </motion.div>
+
+
+          <motion.div variants={itemVariants}
+          className="card card-violet md:col-span-1 row-span-4 flex flex-col gap-4">
+            <h2
+            className="section-title">
+              <Trophy size={20}
+              className="text-violet-400"/>
+              <span>Projects</span>
+
+              <div className="grid grid-cols-1
+              md:grid-cols-2 gap-3 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
+                {projects.map((i) => (
+                  <motion.div key={i}
+                  className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer">
+                    
+                  </motion.div>
+                ))}
+              </div>
+            </h2>
           </motion.div>
         </motion.main>
       </div>
