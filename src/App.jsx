@@ -83,7 +83,10 @@ function App() {
         className="main-grid"
         >
 
-          
+          <motion.div variants={itemVariants}
+          className="card card-cyan md:col-span-1
+          row-span-3 flex flex-col justify-center gap-3">
+          </motion.div>
         </motion.main>
       </div>
     </>
