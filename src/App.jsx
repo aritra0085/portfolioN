@@ -174,7 +174,12 @@ function App() {
                 whileHover={{x : 4}}
                 whileTap={{scale: 0.98}}>
                   <a href={social.link}
-                  target="_blank"></a>
+                  target="_blank"
+                  className={`group flex items-center text-slate-400 $ {social.color}`}>
+                    <span className="p-2 rounded-lg bg-white/5 group-hover:bg-white/10 transition duration-300 group-hover:scale-110">
+                      <social.icon size={18}/>
+                    </span>
+                  </a>
                 </motion.li>
               ))}
             </ul>
