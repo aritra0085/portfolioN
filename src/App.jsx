@@ -65,8 +65,14 @@ function App() {
       <div className="relative min-h-screen flex justify-center items-center bg-[#0a0a0a] text-white p-4 md:py-14 font-mono overflow-hidden">
         {animatedBlobs.map((blob, i) => (
           <motion.div key={i}
-          className={`absolute rounded-full ${blob.className}`}>
-
+          className={`absolute rounded-full ${blob.className}`}
+          animate={blob.animate}
+          transition={{
+            duration: blob.duration,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeateType: "mirror"
+          }}>
           </motion.div>
         ))}
       </div>
