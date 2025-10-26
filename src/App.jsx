@@ -167,6 +167,17 @@ function App() {
               className="text-violet-400"/>
               <span>Social Links</span>
             </h2>
+
+            <ul className="space-y-3">
+              {socialLinks.map((social, i) => (
+                <motion.li key={i}
+                whileHover={{x : 4}}
+                whileTap={{scale: 0.98}}>
+                  <a href={social.link}
+                  target="_blank"></a>
+                </motion.li>
+              ))}
+            </ul>
           </motion.div>
         </motion.main>
       </div>
