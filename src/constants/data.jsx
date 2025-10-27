@@ -3,7 +3,7 @@ import { Github, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 export const personalInfo = {
   name: "Aritra Biswas",
   role: "Web Developer",
-  bio: "Hi, I’m Aritra Biswas. I’m a Web Developer focused on creating fast, intuitive, and impactful digital experiences. My work blends technical precision with a design-driven mindset to build websites that not only perform flawlessly but feel exceptional to use.",
+  bio: "Hi, I’m Aritra Biswas. I’m a Web Developer with strong DSA skills and great knowledge in C++. Completed an internship at IBM & Edunet. As a B.Tech CSE student from the University of Calcutta (2022–2026), specializing in modern web development and performance optimization.",
   email: "aritrabiswas218@gmail.com",
   location: "India",
 };
@@ -39,10 +39,10 @@ export const socialLinks = [
 
 export const experiences = [
   {
-    title: "Frontend Developer",
-    company: "Freelance",
-    period: "2023 — Present",
-    desc: "Building fast, accessible, and visually engaging web apps using React, Next.js, and Tailwind CSS. Collaborating with clients to turn design ideas into responsive, high-performance websites.",
+    title: "Web Developer",
+    company: "IBM",
+    period: "Aug — Oct 2025",
+    desc: "Completed an IBM internship focused on building responsive, high-performance web apps using React, Node.js, and Tailwind CSS—collaborating with teams to enhance UI, optimize performance, and ensure accessibility.",
     color: "violet",
   },
   {
