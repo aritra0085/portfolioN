@@ -256,10 +256,22 @@ function App() {
           <motion.div variants={itemVariants}
           className="card card-yellow row-span-3 sm:roe-span-4 flex flex-col gap-4">
 
-            <h2>
-              <Trophy size={20}/>
+            <h2 className="section-title">
+              <Trophy size={20} className="text-yellow-400"/>
               <span>Achievements & Metrics</span>
             </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-slate-400">
+              {achievements.map((ach, i) => (
+                <motion.div
+                key={i}
+                whileHover={{scale: 1.03}}
+                className="stats-box">
+                  <span>
+                    {ach.value}
+                  </span>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </motion.main>
       </div>
