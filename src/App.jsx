@@ -243,7 +243,14 @@ function App() {
                 className="text-green-400"/>
                 <span>Goals</span>
               </h2>
-              <ul></ul>
+              <ul className="text-slate-400 text-sm space-y-2">
+                {goals.map((goal,i) => (
+                  <li key={i} className="flex items-start gap-2">
+                    <span></span>
+                    {goal}
+                  </li>
+                ))}
+              </ul>
           </motion.div>
         </motion.main>
       </div>
