@@ -71,7 +71,7 @@ export const tools = [
 
 export const goals = [
   "Launch my own web agency",
-  "Start a web development Youtube channel",
+  "Start a Tech Life Youtube channel",
   "Gain more customers",
   "Learn new frameworks and libraries",
 ];
@@ -79,8 +79,8 @@ export const goals = [
 export const achievements = [
   {
     title: "Projects Completed",
-    value: "50+",
-    desc: "Developed 50+ interactive motion and web projects for enterprise clients.",
+    value: "18+",
+    desc: "Developed 18+ interactive motion and web projects.",
     color: "yellow",
   },
   {
