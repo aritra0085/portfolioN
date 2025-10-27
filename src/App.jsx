@@ -252,9 +252,13 @@ function App() {
                 ))}
               </ul>
           </motion.div>
+          { /* dahslkdakjsd */
+          /* dahslkdakjsd *//*
+          //  dahslkdakjsd *//*
+          //  dahslkdakjsd */ }
 
           <motion.div variants={itemVariants}
-          className="card card-yellow row-span-3 sm:roe-span-4 flex flex-col gap-4">
+          className="card card-yellow row-span-4 sm:roe-span-4 flex flex-col gap-4">
 
             <h2 className="section-title">
               <Trophy size={20} className="text-yellow-400"/>
