@@ -252,11 +252,7 @@ function App() {
                 ))}
               </ul>
           </motion.div>
-          { /* dahslkdakjsd */
-          /* dahslkdakjsd *//*
-          //  dahslkdakjsd *//*
-          //  dahslkdakjsd */ }
-
+          
           <motion.div variants={itemVariants}
           className="card card-yellow row-span-4 sm:roe-span-4 flex flex-col gap-4">
 
