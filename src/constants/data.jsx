@@ -72,7 +72,7 @@ export const tools = [
 export const goals = [
   "Launch my own web agency",
   "Start a Tech Life Youtube channel",
-  "Gain more customers",
+  "Gain more clients",
   "Learn new frameworks and libraries",
 ];
 
@@ -80,13 +80,13 @@ export const achievements = [
   {
     title: "Projects Completed",
     value: "18+",
-    desc: "Developed 18+ interactive motion and web projects.",
+    desc: "Created 18+ dynamic web projects with React.js and Node.js, focused on motion and responsiveness.",
     color: "yellow",
   },
   {
-    title: "Open Source Contributions",
-    value: "1.2k+",
-    desc: "Contributed to popular open-source projects, including motion and UI libraries.",
+    title: "Deliverd Projects to clients",
+    value: "3",
+    desc: "Delivering visually stunning, responsive websites with the best UI design for clients.",
     color: "cyan",
   },
   {
