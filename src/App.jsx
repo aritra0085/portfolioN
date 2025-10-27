@@ -266,9 +266,21 @@ function App() {
                 key={i}
                 whileHover={{scale: 1.03}}
                 className="stats-box">
-                  <span>
+                  <span className={`font-bold text-xl ${
+                    ach.color === "yellow"
+                    ? "text-yellow-400"
+                    : ach.color === "cyan"
+                    ? "text-cyan-400"
+                    : ach.color === "pink"
+                    ? "text-pink-400"
+                    : "text-violet-400"
+                    }`}>
                     {ach.value}
                   </span>
+                  <h3 className="mt-1 font-medium text-white/90">{ach.name}</h3>
+                  <p className="mt-1 text-slate-400 text-xs leading-sung">
+                    {ach.desc}
+                  </p>
                 </motion.div>
               ))}
             </div>
