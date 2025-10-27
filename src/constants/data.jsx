@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Youtube } from "lucide-react";
+import { Github, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 export const personalInfo = {
   name: "Aritra Biswas",
@@ -14,13 +14,13 @@ export const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    link: "#",
+    link: "https://github.com/aritra0085",
     color: "hover:text-white",
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    link: "#",
+    link: "https://www.linkedin.com/in/aritra-biswas-50594529a/",
     color: "hover:text-blue-400",
   },
   {
@@ -30,8 +30,8 @@ export const socialLinks = [
     color: "hover:text-sky-400",
   },
   {
-    name: "YouTube",
-    icon: Youtube,
+    name: "Instagram",
+    icon: Instagram,
     link: "#",
     color: "hover:text-red-400",
   },
