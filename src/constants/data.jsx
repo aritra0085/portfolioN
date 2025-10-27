@@ -39,36 +39,34 @@ export const socialLinks = [
 
 export const experiences = [
   {
-    title: "Web Developer",
+    title: "Web Developer Intern",
     company: "IBM",
     period: "Aug — Oct 2025",
-    desc: "Completed an IBM internship focused on building responsive, high-performance web apps using React, Node.js, and Tailwind CSS—collaborating with teams to enhance UI, optimize performance, and ensure accessibility.",
+    desc: "Completed an IBM & Edunet internship focused on building responsive, high-performance web apps using React, Node.js, and Tailwind CSS—collaborating with teams to enhance UI, optimize performance, and ensure accessibility.",
     color: "violet",
   },
   {
-    title: "Web Developer Intern",
+    title: "Web Developer ",
     company: "Freelance",
-    period: "2021 — 2023",
     desc: "Developed internal dashboards and small-scale SaaS tools with React and Node.js. Improved UI performance and introduced reusable component systems for faster development.",
     color: "cyan",
   },
   {
-    title: "UI/UX Designer",
+    title: "Event Planer",
     company: "Freelance",
-    period: "2019 — 2021",
-    desc: "Designed intuitive, minimal interfaces with a focus on motion and user experience. Helped startups and small businesses bring their brand and web presence to life.",
+    desc: "Creative event planner specializing in designing, organizing, and executing seamless weddings, parties, and corporate events with precision, style, and memorable experiences.",
     color: "pink",
   },
 ];
 
 export const tools = [
-  "Figma – UI/UX Design",
-  "Adobe After Effects – Motion Design",
   "VS Code – Code Editor",
   "Git & GitHub – Version Control",
   "Postman – API Testing",
-  "Docker – Containerization",
+  "Canva – UI/UX Design",
   "Notion – Productivity",
+  "Adobe Lightroom - Photo Editing",
+  "Adobe Premiere Pro – Video Editing"
 ];
 
 export const goals = [
