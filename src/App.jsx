@@ -121,11 +121,10 @@ function App() {
                   {/*  */}
 
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <buttton
-                   className="gradient-btn">
+                  <button className="gradient-btn">
                     Open Project
-                    <ExternalLink size={14}/>
-                  </buttton>
+                    <ExternalLink size={14} />
+                  </button>
                   </div>
                 </motion.div>
               ))}
@@ -277,7 +276,7 @@ function App() {
                     }`}>
                     {ach.value}
                   </span>
-                  <h3 className="mt-1 font-medium text-white/90">{ach.name}</h3>
+                  <h3 className="mt-1 font-medium text-white/90">{ach.title}</h3>
                   <p className="mt-1 text-slate-400 text-xs leading-sung">
                     {ach.desc}
                   </p>
@@ -288,7 +287,7 @@ function App() {
 
           <motion.div variants={itemVariants}
           className="card card-cyan row-span-5 flex flex-col overflow-hidden">
-            <h2>
+            <h2 className="section-title">
               <User size={20}
               className="text-cyan-400"/>
               <span>Skills</span>
@@ -297,10 +296,37 @@ function App() {
               {skills.map((group, i) => (
                 <li key={i} className="space-y-3">
                   <span className="font-medium text-white/90">
-                  {group.category}</span>
+                    {group.category}
+                  </span>
+                  <ul className="ml-4 space-y-1">
+                    {group.skills.map((skill, j) => (
+                      <li key={j}
+                      className="hover-item mt-1">
+                        {skill}
+                      </li>
+                    ))}
+                  </ul>
                 </li>
               ))}
             </ul>
+          </motion.div>
+
+          <motion.div
+              variants={itemVariants}
+              className="card card-orange row-span-2 flex flex-col gap-3 overflow-hidden"
+            >
+              <h2 className="section-title">
+                <Trophy size={20} className="text-amber-400" />
+                <span>Certificates</span>
+              </h2>
+              <ul className="space-y-2 text-sm text-slate-400">
+                {certificates?.map((cert, i) => (
+                  <li key={i} className="group flex items-center gap-2">
+                    <span className="bullet w-2 h-2 rounded-full bg-amber-600/50 group-hover:bg-amber-400"></span>
+                    <span>{cert}</span>
+                  </li>
+                ))}
+              </ul>
           </motion.div>
         </motion.main>
       </div>
