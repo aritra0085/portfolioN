@@ -252,7 +252,7 @@ function App() {
                 ))}
               </ul>
           </motion.div>
-          
+
           <motion.div variants={itemVariants}
           className="card card-yellow row-span-4 sm:roe-span-4 flex flex-col gap-4">
 
@@ -284,6 +284,23 @@ function App() {
                 </motion.div>
               ))}
             </div>
+          </motion.div>
+
+          <motion.div variants={itemVariants}
+          className="card card-cyan row-span-5 flex flex-col overflow-hidden">
+            <h2>
+              <User size={20}
+              className="text-cyan-400"/>
+              <span>Skills</span>
+            </h2>
+            <ul className="space-y-4 text-sm text-slate-400 overflow-y-auto max-h[450px]">
+              {skills.map((group, i) => (
+                <li key={i} className="space-y-3">
+                  <span className="font-medium text-white/90">
+                  {group.category}</span>
+                </li>
+              ))}
+            </ul>
           </motion.div>
         </motion.main>
       </div>
