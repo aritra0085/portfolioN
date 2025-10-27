@@ -246,11 +246,20 @@ function App() {
               <ul className="text-slate-400 text-sm space-y-2">
                 {goals.map((goal,i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span></span>
+                    <span className="bullet mt-1 bg-green-400/50 group-hover:bg-green-400"></span>
                     {goal}
                   </li>
                 ))}
               </ul>
+          </motion.div>
+
+          <motion.div variants={itemVariants}
+          className="card card-yellow row-span-3 sm:roe-span-4 flex flex-col gap-4">
+
+            <h2>
+              <Trophy size={20}/>
+              <span>Achievements & Metrics</span>
+            </h2>
           </motion.div>
         </motion.main>
       </div>
