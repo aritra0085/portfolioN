@@ -84,21 +84,21 @@ export const achievements = [
     color: "yellow",
   },
   {
-    title: "Deliverd Projects to clients",
+    title: "Deliverd Websites to clients",
     value: "3",
     desc: "Delivering visually stunning, responsive websites with the best UI design for clients.",
     color: "cyan",
   },
   {
-    title: "Speaker Engagements",
+    title: "Hackathon",
     value: "10+",
-    desc: "Presented at international conferences like Adobe MAX and UXDX.",
+    desc: "10+ hackathons: multiple wins, finalist in several, and selected for SIH University tech innovation round.",
     color: "pink",
   },
   {
     title: "Awards & Recognition",
-    value: "5",
-    desc: "Won multiple awards for innovative motion design and interactive experiences.",
+    value: "45+",
+    desc: "Award-winning Badminton player, recognized at National, State, and University competitions for excellence.",
     color: "violet",
   },
 ];
@@ -115,7 +115,7 @@ export const skills = [
   },
   {
     category: "Backend",
-    skills: ["Node.js / Express", "PostgreSQL / Prisma", "REST & GraphQL APIs"],
+    skills: ["Node.js / Express", "MySQL / PHP", "REST & GraphQL APIs"],
   },
   {
     category: "Design & Tools",
