@@ -77,8 +77,8 @@ function App() {
   },
   {
     name: "Ai Resume Analyzer",
-    img: "/projects/bus.png",
-    link: "https://github.com/aritra-biswas/bus-management",
+    img: "/airesume.png",
+    link: "https://github.com/aritra0085/resuanalyze",
   },
   
   {
