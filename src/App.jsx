@@ -59,6 +59,40 @@ function App() {
     }
   };
 
+ const projects = [
+  {
+    name: "StudentHub",
+    img: "/projects/studenthub.png",
+    link: "https://studenthub.vercel.app",
+  },
+  {
+    name: "Decorators Site",
+    img: "/projects/decorators.png",
+    link: "https://biswasdecorators.in",
+  },
+  {
+    name: "Bus Management System",
+    img: "/projects/bus.png",
+    link: "https://github.com/aritra-biswas/bus-management",
+  },
+  {
+    name: "Bus Management System",
+    img: "/projects/bus.png",
+    link: "https://github.com/aritra-biswas/bus-management",
+  },
+  {
+    name: "Bus Management System",
+    img: "/projects/bus.png",
+    link: "https://github.com/aritra-biswas/bus-management",
+  },
+  {
+    name: "Bus Management System",
+    img: "/projects/bus.png",
+    link: "https://github.com/aritra-biswas/bus-management",
+  }
+  // add more projects here...
+]; 
+
 
   return (
     <>
@@ -103,33 +137,44 @@ function App() {
           </motion.div>
 
 
-          <motion.div
-            variants={itemVariants}
-            className="card card-violet md:col-span-1 row-span-4 flex flex-col gap-4"
+<motion.div
+  variants={itemVariants}
+  className="card card-violet md:col-span-1 row-span-4 flex flex-col gap-4"
+>
+  <h2 className="section-title flex items-center gap-2">
+    <Trophy size={20} className="text-violet-400" />
+    <span>Projects</span>
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
+    {projects.map((p, index) => (
+      <motion.div
+        key={index}
+        className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer"
+      >
+        {/* Project Image */}
+        <img
+          src={p.img}
+          alt={p.name}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <a
+            href={p.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gradient-btn flex items-center gap-2"
           >
-            <h2 className="section-title flex items-center gap-2">
-              <Trophy size={20} className="text-violet-400" />
-              <span>Projects</span>
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
-              {projects.map((i) => (
-                <motion.div
-                  key={i}
-                  className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer"
-                >
-                  {/*  */}
-
-                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <button className="gradient-btn">
-                    Open Project
-                    <ExternalLink size={14} />
-                  </button>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
+            Open Project
+            <ExternalLink size={14} />
+          </a>
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</motion.div>
 
           <motion.div variants={itemVariants}
           className="card card-blue row-span-2 flex flex-col justify-center items-start gap-3 overflow-hidden">
