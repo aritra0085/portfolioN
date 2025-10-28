@@ -61,9 +61,9 @@ function App() {
 
  const projects = [
   {
-    name: "StudentHub",
-    img: "/portfolio.png",
-    link: "https://studenthub.vercel.app",
+    name: "Taskmanager",
+    img: "/taskmanager.png",
+    link: "https://github.com/aritra0085/taskflow",
   },
   {
     name: "STUNO",
@@ -71,7 +71,7 @@ function App() {
     link: "https://github.com/aritra0085/Study_planner_project",
   },
   {
-    name: "Bus Management System",
+    name: "resubild",
     img: "/projects/bus.png",
     link: "https://github.com/aritra-biswas/bus-management",
   },
