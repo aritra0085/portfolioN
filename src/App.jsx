@@ -21,7 +21,7 @@ import {
   certificates,
   animatedBlobs,
 } from "./constants/data.jsx";
-import pp from "/pp.jpg"
+import pp from "/ph.png"
 function App() {
 
   const [time, setTime] = useState("")
