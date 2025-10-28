@@ -80,15 +80,16 @@ function App() {
     img: "/projects/bus.png",
     link: "https://github.com/aritra-biswas/bus-management",
   },
-  {
-    name: "Bus Management System",
-    img: "/projects/bus.png",
-    link: "https://github.com/aritra-biswas/bus-management",
-  },
+  
   {
     name: "Old Portfolio",
     img: "/portfolio.png",
     link: "https://portfolio-five-gold-71.vercel.app",
+  },
+  {
+    name: "Qr Maker",
+    img: "/qr.png",
+    link: "https://github.com/aritra0085/QR-Maker",
   }
   // add more projects here...
 ]; 
