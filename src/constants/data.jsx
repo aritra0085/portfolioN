@@ -128,10 +128,10 @@ export const skills = [
 ];
 
 export const certificates = [
-  "Microsoft Certified: Power Platform App Maker",
-  "Adobe Certified Expert: After Effects",
-  "Frontend Developer Nanodegree - Udacity",
-  "Docker Essentials - Coursera",
+  "IBM Skillbuild Certified: Web Development",
+  "Udemy Certified : C++",
+  "IBM Skillbuild Certified - AI Fundamentals",
+  "Udemy Certified - Web Development",
 ];
 
 export const animatedBlobs = [
