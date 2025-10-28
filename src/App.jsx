@@ -66,9 +66,9 @@ function App() {
     link: "https://studenthub.vercel.app",
   },
   {
-    name: "Decorators Site",
-    img: "/projects/decorators.png",
-    link: "https://biswasdecorators.in",
+    name: "STUNO",
+    img: "/stuno.png",
+    link: "https://github.com/aritra0085/Study_planner_project",
   },
   {
     name: "Bus Management System",
@@ -76,7 +76,7 @@ function App() {
     link: "https://github.com/aritra-biswas/bus-management",
   },
   {
-    name: "Bus Management System",
+    name: "Ai Resume Analyzer",
     img: "/projects/bus.png",
     link: "https://github.com/aritra-biswas/bus-management",
   },
