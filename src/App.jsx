@@ -62,7 +62,7 @@ function App() {
  const projects = [
   {
     name: "StudentHub",
-    img: "/projects/studenthub.png",
+    img: "/portfolio.png",
     link: "https://studenthub.vercel.app",
   },
   {
@@ -86,9 +86,9 @@ function App() {
     link: "https://github.com/aritra-biswas/bus-management",
   },
   {
-    name: "Bus Management System",
-    img: "/projects/bus.png",
-    link: "https://github.com/aritra-biswas/bus-management",
+    name: "Old Portfolio",
+    img: "/portfolio.png",
+    link: "https://portfolio-five-gold-71.vercel.app",
   }
   // add more projects here...
 ]; 
