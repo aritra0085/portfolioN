@@ -128,9 +128,9 @@ export const skills = [
 ];
 
 export const certificates = [
-  "IBM Skillbuild Certified: Web Development",
+  "IBM Certified: Web Development",
   "Udemy Certified : C++",
-  "IBM Skillbuild Certified - AI Fundamentals",
+  "IBM Certified - AI Fundamentals",
   "Udemy Certified - Web Development",
 ];
 
