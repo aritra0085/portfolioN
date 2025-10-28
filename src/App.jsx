@@ -87,9 +87,9 @@ function App() {
     link: "https://portfolio-five-gold-71.vercel.app",
   },
   {
-    name: "Qr Maker",
-    img: "/qr.png",
-    link: "https://github.com/aritra0085/QR-Maker",
+    name: "Biswas",
+    img: "/biswas.png",
+    link: "https://biswas-decorators.vercel.app/",
   }
   // add more projects here...
 ]; 
