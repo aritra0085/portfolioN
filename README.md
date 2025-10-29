@@ -1,16 +1,38 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **personal portfolio website** built using React and Vite, designed to showcase your projects, skills, and achievements in a visually engaging way.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [showcase-ivory-eight.vercel.app](https://showcase-ivory-eight.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
+- **React.js** – Component-based UI
+- **Vite** – Fast build and hot reload
+- **HTML5 / CSS3 / JavaScript (ES6+)**
+- **Framer Motion** – Animations
+- **Tailwind CSS** – Modern styling
+- **Lucide Icons** – Clean vector icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💡 Features
+- ⚡ Fast and lightweight with Vite  
+- 📱 Fully responsive for all devices  
+- 🎨 Modern, elegant, and animated UI  
+- 🧩 Component-based architecture for easy maintenance  
+- 🧠 Structured sections for About, Projects, Skills, and Contact  
+- 🖼️ Smooth motion effects for better visual appeal  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/aritra0085/portfolioN.git
+
+Live Site: https://showcase-ivory-eight.vercel.app
+
+You want me to make it sound a bit more **recruiter-focused (personal branding tone)** or **tech-reviewer focused (code clarity, architecture)**?  
+I can tweak the wording and layout accordingly before you commit it.
