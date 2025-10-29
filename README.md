@@ -31,20 +31,6 @@ A modern and responsive **personal portfolio website** built using React and Vit
 1. **Clone the repository**
    ```bash
    git clone https://github.com/aritra0085/portfolioN.git
-cd portfolioN
-npm install
-npm run dev
-
-portfolioN/
-├── src/
-│   ├── components/      # Reusable UI components
-│   ├── assets/          # Images & static files
-│   ├── pages/           # Main page sections
-│   ├── App.jsx          # Root component
-│   └── main.jsx         # Entry point
-├── public/              # Public assets
-├── package.json         # Dependencies & scripts
-└── vite.config.js       # Vite configuration
 
 Live Site: https://showcase-ivory-eight.vercel.app
 
