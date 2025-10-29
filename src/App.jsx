@@ -72,13 +72,13 @@ function App() {
   },
   {
     name: "resubild",
-    img: "/projects/bus.png",
-    link: "https://github.com/aritra-biswas/bus-management",
-  },
-  {
-    name: "Ai Resume Analyzer",
     img: "/airesume.png",
     link: "https://github.com/aritra0085/resuanalyze",
+  },
+  {
+    name: "resubuild",
+    img: "/resubuild.png",
+    link: "https://github.com/aritra0085/buildresume",
   },
   
   {
